@@ -1,0 +1,21 @@
+<CameraScreen>:
+    GridLayout:
+        cols: 1
+        padding:10
+        spacing:10
+
+        Camera:
+            id: camera
+            resolution: (640, 480)
+            play: False
+
+        Button:
+            text:'Start camera'
+            on_press: root.start()
+        Button:
+            text:'Capture'
+
+<RootWidget>
+    CameraScreen:
+        id: camera_screen
+        name: 'camera_screen'
