@@ -1,13 +1,13 @@
 from filestack import Client
 
 
-class   FileSharer:
+class FileSharer:
     """
     used for sharing files from the result of the report class
     return url of the file
     """
 
-    def __init__(self,filepath, api_key='AgPcHHKYQRx2tuJtmSypnz'):
+    def __init__(self, filepath, api_key='AgPcHHKYQRx2tuJtmSypnz'):
         self.filepath = filepath
         self.api_key = api_key
 
