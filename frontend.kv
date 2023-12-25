@@ -22,18 +22,24 @@
     GridLayout:
         cols: 1
         Image:
+            id: img
         Button:
             text: 'Create Sharable link'
+            on_press: root.create_link()
         Label:
+            id: link
             text:''
 
         GridLayout:
             cols: 2
 
             Button:
+
                 text: 'Copy link'
+                on_press: root.copy_link()
             Button:
                 text: 'Open link'
+                on_press: root.open_link()
 
 <RootWidget>
     CameraScreen:
