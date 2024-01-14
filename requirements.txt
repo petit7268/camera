@@ -1,11 +1,3 @@
-certifi
-chardet
-docutils
 filestack-python
-idna
-Pygments
 requests
-trafaret
-urllib3
-Kivy
-Kivy-Garden
+kivy
